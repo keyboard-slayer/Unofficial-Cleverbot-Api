@@ -3,8 +3,8 @@
 ## How to install ?
 
 ```
-sudo apt install python2.7 python2-pip
-sudo python2.7 ./setup.py install 
+sudo apt install python python-pip
+sudo python ./setup.py install 
 ```
 
 ## How to use it ?
