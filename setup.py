@@ -19,5 +19,5 @@ setup(name='Cleverbot',
         "Natural Language :: French",
         "Operating System :: Unix",
         "Operating System :: Microsoft :: Windows"
-      ]
+      ],
       zip_safe=False)
