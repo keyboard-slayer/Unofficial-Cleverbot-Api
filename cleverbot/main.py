@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from selenium import webdriver
 
 """
     This lib is an offcicial API of Cleverbot
