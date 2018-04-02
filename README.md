@@ -4,6 +4,7 @@
 
 ```
 sudo apt install python python-pip
+sudo pip install -r ./requirement.txt
 sudo python ./setup.py install 
 ```
 
