@@ -14,7 +14,7 @@ For [Debian](https://gist.github.com/julionc/7476620) based distro
 
 For [Windows](https://www.joecolantonio.com/2014/10/14/how-to-install-phantomjs/)
 
-For [Mac OSX](https://ariya.io/2012/02/phantomjs-and-mac-os-x-)
+For [Mac OSX](https://ariya.io/2012/02/phantomjs-and-mac-os-x)
 
 ## How to use it ?
 
