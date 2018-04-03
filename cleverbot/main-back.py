@@ -25,4 +25,4 @@ class Cleverbot(object):
     def get(self):
         return self.driver.execute_script("return cleverbot.reply")
     def send(self, reply):
-        return self.driver.execute_script("cleverbot.sendAI('%s')" % (reply.replace('\'', ' ').replace("à", "a").replace("ï", "i").replace("\"", " ").replace("@", "").replace("ô", "o").replace("ê", "e").replace("é", "e").replace("è", "e").replace("?", "").replace("!", "").lower()))
+        return self.driver.execute_script("cleverbot.sendAI('%s')" % (reply.encode("utf-8").replace('\'', ' ').replace("à", "a").replace("ï", "i").replace("\"", " ").replace("@", "").replace("ô", "o").replace("ê", "e").replace("é", "e").replace("è", "e").replace("?", "").replace("!", "").lower()))
