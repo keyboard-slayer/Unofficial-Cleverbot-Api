@@ -4,7 +4,7 @@
 from selenium import webdriver
 
 """
-    This lib is an offcicial API of Cleverbot
+    This lib is an unoffcicial API of Cleverbot
 
     Usage:
         >>> bot = Cleverbot()
