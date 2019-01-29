@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
+import os
 from selenium import webdriver
 
 """
@@ -19,7 +21,9 @@ __all__ = ["Cleverbot"]
 
 class Cleverbot(object):
     def __init__(self):
-        self.driver = webdriver.PhantomJS()
+        os.environ['MOZ_HEADLESS'] = '1'
+        self.driver = webdriver.Firefox()
+
         self.driver.get("http://www.cleverbot.com/")
 
     def get(self):
